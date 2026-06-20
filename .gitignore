@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files (managed by the platform env-key system)
+.env
+.env.local
+.env.production
+
+# Data - keep the directory structure but ignore generated content
+data/index/faiss.index
+data/index/metadata.json
+data/pdfs/*.pdf
+data/sample/*.pdf
+
+# Model cache (HuggingFace downloads to ~/.cache - not in workspace)
